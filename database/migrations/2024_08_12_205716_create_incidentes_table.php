@@ -13,7 +13,7 @@ class CreateIncidentesTable extends Migration
             $table->string('titulo');
             $table->text('descripcion');
             $table->string('tipo');
-            $table->string('estado')->default('Pendiente'); // Ejemplo de estado
+            $table->string('estado')->default('Pendiente');
             $table->timestamps();
         });
     }
